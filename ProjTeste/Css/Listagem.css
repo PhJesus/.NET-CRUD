@@ -1,0 +1,71 @@
+﻿body {
+    background: #E7ECEF;
+}
+
+#btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+thead{
+    background-color: rgb(55, 61, 62);
+    color: #ffffff;
+    font-size: 9.5pt;
+    margin: 0px;
+    border: none;
+}
+
+thead tr {
+    padding: 0px;
+}
+
+thead tr th {
+    border: none;
+    padding: 0px;
+    font-size: 9pt;
+}
+
+tbody tr td {
+    font-size: 9pt;
+    
+}
+
+.cadastro, .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    flex-grow: 1;
+}
+
+#btn {
+    background-color: #657b8e;
+    border-color: #657b8e;
+}
+
+#btn:hover {
+    background-color: #556671;
+    border-color: #556671;
+    color: #f1f2f2;
+}
+
+#edit {
+    background-color: #ffa556;
+    border-color: #ffa556;
+}
+
+#delete {
+    background-color: #ca1720;
+    border-color: #ca1720;
+}
+
+#edit:hover {
+    background-color: #e7852f;
+    border-color: #e7852f;
+}
+
+#delete:hover {
+    background-color: #aa232a;
+    border-color: #aa232a;
+}
